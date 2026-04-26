@@ -22,7 +22,7 @@ Não copiamos o brief literal. Aplicamos esse pattern (validado no E1/W1):
 | **W1** | Ter 22/04 19h30 | Sex 24/04 ~17h30 | `W1-aviso-curto.txt` | Mesmo, encurtado | LINK 1 | ✅ Enviado |
 | **E2** | Sex 25/04 11h | Sáb 25/04 ~17h | `E2-promessa-falsa.html` | **Promessa falsa = morta** (ataque indústria de gurus) | LINK 3 (`gG2bUUwDFpE` R$ 2.255) | ⏳ Aguardando aprovação |
 | **W2** | Sex 25/04 14h | Sáb 25/04 ~17h30 | `W2-provocacao.txt` | **Provocação + guru Lamborghini** | LINK 3 | ⏳ Aguardando aprovação |
-| **E3** | Dom 27/04 19h | Dom 27/04 19h | `E3-recap-ultimo-call.html` | Última chance + dor específica (mão treme / segura na perda) | LINK 4 (`?` "A melhor IA") | ⬜ A fazer |
+| **E3** | Dom 27/04 19h | Dom 27/04 19h | `E3-recap-ultimo-call.html` | Última chance + dor específica (mão treme / segura na perda) | LINK 4 (`_wwMqYp2ze0` "A melhor IA") | ⬜ A fazer |
 | **W3** | Dom 27/04 20h | Dom 27/04 20h | `W3-audio-suriel.txt` | **Áudio do Suriel · 50s** (não texto) — script no brief pág 16 | — | ⬜ A fazer (Suriel grava) |
 | **E4** | Seg 28/04 9h | Seg 28/04 9h | `E4-e-hoje.html` | Compromisso + expectativa | — | ⬜ A fazer |
 | **W4** | Seg 28/04 12h | Seg 28/04 12h | `W4-lembrete.txt` | Lembrete dia D | — | ⬜ A fazer |
@@ -31,7 +31,7 @@ Não copiamos o brief literal. Aplicamos esse pattern (validado no E1/W1):
 
 ## Pendências travando peças posteriores
 
-1. **LINK 4 (vídeo "A melhor IA pra ganhar")** — preciso do ID do YouTube pra montar E3/W2 conferindo a ID que cortou na sua mensagem
+1. ✅ **LINK 4** confirmado: `_wwMqYp2ze0` ("A MELHOR IA PARA GANHAR COM DAY TRADE — Inteligência Artificial")
 2. **Oferta exclusiva da live** — brief pág 19 lista 4 opções (A: desconto direto · B: bônus · C: vitalício · D: combo). Recomendação do brief: **D**. **Você ainda não decidiu** — sem isso, P.S./gancho de E4/E5 fica genérico
 3. **Áudio do W3** — Suriel precisa gravar entre 25-26/04. Script pronto no brief pág 16 (50-60s, tom baixo conversacional)
 4. **Pós-live (29-30/04)** — brief sugere sequência de fechamento de carrinho 48h depois (não está na campanha original mas Suriel pode pedir)

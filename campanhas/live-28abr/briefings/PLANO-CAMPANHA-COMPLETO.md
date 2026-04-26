@@ -23,7 +23,7 @@
 | LINK 1 | 1.700 reais de lucro com IA para day trade | `yeUXsAWhHSw` | 5,2 mil |
 | LINK 2 | FAZENDO DAY TRADE COM IA — PASSO A PASSO | `2HV4noYpbaE` | 9,2 mil |
 | LINK 3 | GANHEI R$ 2.255,00 DE LUCRO COM ESSA IA | `gG2bUUwDFpE` | 3,6 mil |
-| LINK 4 | A MELHOR IA PARA GANHAR COM DAY TRADE | **⚠️ ID pendente** | 4,6 mil |
+| LINK 4 | A MELHOR IA PARA GANHAR COM DAY TRADE — Inteligência Artificial | `_wwMqYp2ze0` | 4,6 mil |
 
 Total: 22,6 mil views em 8 dias.
 
@@ -69,9 +69,10 @@ Total: 22,6 mil views em 8 dias.
 
 ### Pendências bloqueadoras
 
-1. **LINK 4 — ID do YouTube** (sem isso, E3 sem vídeo)
-2. **Oferta exclusiva** — A) desconto · B) bônus · C) vitalício · **D) combo (rec.)** — sem isso, P.S./gancho E4-E5 fica genérico
-3. **Áudio do W3** — Suriel grava 50-60s até dom 27/04 18h
+1. **Áudio do W3** — Suriel grava 50-60s até dom 27/04 18h
+2. **Automation no AC** — clique CTA email → tag + lista (ainda não criada)
+
+> A oferta exclusiva é decisão do Suriel, anunciada ao vivo na transmissão — não entra no documento.
 
 ---
 
@@ -330,9 +331,8 @@ Hero `✓ VOCÊ TÁ DENTRO` · H1 *"Te vejo segunda às 20h"* · countdown · ev
 
 ### Pendências bloqueadoras (recap)
 
-- ☐ **LINK 4 — ID YouTube** ("A melhor IA pra ganhar")
-- ☐ **Oferta exclusiva da live** (A/B/C/D — recomendação D)
 - ☐ **Áudio do W3** — Suriel grava até dom 27/04 18h
+- ☐ **Automation no AC** — clique CTA email → tag + lista (ainda não criada)
 
 ### Substituições de última hora
 
@@ -345,8 +345,7 @@ Hero `✓ VOCÊ TÁ DENTRO` · H1 *"Te vejo segunda às 20h"* · countdown · ev
 **Pontuais:**
 - ☐ Mandar W2.5 hoje 26/04 nos grupos
 - ☐ Suriel gravar áudio W3 até dom 18h
-- ☐ Decidir oferta exclusiva
-- ☐ Passar URL do vídeo 4
+- ☐ Criar automation no AC
 - ☐ Disparar E3, W3, E4, W4, E5, W5 nos horários
 - ☐ Suriel rodar a live segunda 20h
 
@@ -354,19 +353,3 @@ Hero `✓ VOCÊ TÁ DENTRO` · H1 *"Te vejo segunda às 20h"* · countdown · ev
 - ☐ Conferir aberturas/cliques no AC após cada disparo
 - ☐ Conferir cliques nos vídeos no YouTube Studio (fonte "External")
 - ☐ Conferir contagem da lista LIVE-28ABR-CONFIRMADOS subindo
-
-### Resumo de entrega
-
-| Peça | Disparo | Status |
-|---|---|---|
-| E1 — Anúncio + ataque | Sex 24/04 17h | ✅ Enviado |
-| W1 — Aviso curto | Sex 24/04 17h30 | ✅ Enviado |
-| E2 — Promessa falsa morta | Sáb 25/04 17h | ✅ Enviado |
-| W2 — Provocação | Sáb 25/04 17h30 | ✅ Enviado |
-| W2.5 — Add na agenda | Dom 26/04 | 🟡 Hoje |
-| E3 — Recap + último call | Dom 27/04 19h | ⬜ |
-| W3 — Áudio Suriel | Dom 27/04 20h | ⬜ |
-| E4 — É hoje | Seg 28/04 9h | ⬜ |
-| W4 — Lembrete | Seg 28/04 12h | ⬜ |
-| E5 — 1h antes | Seg 28/04 19h | ⬜ |
-| W5 — 5 min antes | Seg 28/04 19h55 | ⬜ |
