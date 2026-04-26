@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenCapital — Planos &amp; Materiais de Campanha</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Manrope',sans-serif;background:#F4F6FA;color:#374151;line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100vh;display:flex;flex-direction:column}
+a{color:#2479FB;text-decoration:none}
+a:hover{text-decoration:underline}
+
+.hero{background:#08080B;color:#fff;padding:80px 32px 64px;border-bottom:4px solid #2479FB}
+.hero-inner{max-width:920px;margin:0 auto}
+.hero .kicker{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;color:#9CA3AF;text-transform:uppercase;margin-bottom:8px}
+.hero .brand{font-family:'DM Sans',sans-serif;font-size:18px;font-weight:800;color:#fff;margin-bottom:48px}
+.hero .brand span{color:#2479FB}
+.hero h1{font-family:'DM Sans',sans-serif;font-size:54px;font-weight:800;line-height:1.05;color:#fff;margin-bottom:20px;letter-spacing:-1px}
+.hero .lead{font-size:16px;color:#9CA3AF;max-width:620px;line-height:1.6}
+
+.wrap{max-width:920px;margin:0 auto;padding:48px 32px;flex:1;width:100%}
+
+.section-title{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;color:#6B7280;text-transform:uppercase;margin:0 0 16px}
+
+.card{display:block;background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:24px 28px;margin-bottom:14px;border-left:4px solid #2479FB;transition:all .2s;text-decoration:none;color:inherit}
+.card:hover{border-color:#2479FB;box-shadow:0 4px 16px rgba(36,121,251,.08);transform:translateY(-1px);text-decoration:none}
+.card-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:6px}
+.card-title{font-family:'DM Sans',sans-serif;font-size:18px;font-weight:700;color:#141417}
+.card-meta{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;color:#6B7280;letter-spacing:1px;text-transform:uppercase}
+.card-desc{font-size:14px;color:#6B7280;line-height:1.6}
+.card-foot{display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding-top:14px;border-top:1px solid #F3F4F6}
+.card-stats{font-size:12px;color:#9CA3AF}
+.card-arrow{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:#2479FB}
+
+.pill{display:inline-block;font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;letter-spacing:.5px;padding:3px 8px;border-radius:4px;text-transform:uppercase}
+.pill-active{background:#FEF3C7;color:#92400E}
+.pill-done{background:#D1FAE5;color:#065F46}
+.pill-coming{background:#DBEAFE;color:#1E40AF}
+
+.empty{text-align:center;color:#9CA3AF;font-size:14px;padding:32px;border:2px dashed #E5E7EB;border-radius:8px;margin-bottom:14px}
+
+.footer{text-align:center;padding:32px;color:#9CA3AF;font-size:12px;border-top:1px solid #E5E7EB;background:#fff}
+.footer strong{color:#374151}
+
+@media (max-width:680px){
+  .hero h1{font-size:36px}
+  .hero{padding:48px 20px 40px}
+  .wrap{padding:24px 16px}
+  .card{padding:18px 20px}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<div class="hero-inner">
+<p class="kicker">UMA APLICAÇÃO</p>
+<p class="brand">OPEN<span>CAPITAL</span></p>
+<h1>Planos &amp; Materiais<br>de Campanha</h1>
+<p class="lead">Índice de planos operacionais, briefings e materiais de campanhas da OpenCapital. Cada campanha vive em sua própria pasta com o plano completo, copies de email/WhatsApp e referências.</p>
+</div>
+</header>
+
+<div class="wrap">
+
+<p class="section-title">🟡 Em andamento</p>
+
+<a class="card" href="campanhas/live-28abr/index.html">
+<div class="card-header">
+<div class="card-title">Live 28/04 · Print &amp; Trade</div>
+<div class="card-meta">ABR/2026 · 6 DIAS</div>
+</div>
+<p class="card-desc">Convite matador pra live de segunda 28/04 às 20h. 5 emails + 5 WhatsApps em grupos + 1 mensagem extra de calendário. Captação por 1 clique (sem formulário). Base ~5.004 leads no AC.</p>
+<div class="card-foot">
+<div class="card-stats">11 peças · 4 enviadas · 7 a fazer · <span class="pill pill-active">Live amanhã (terça)</span></div>
+<div class="card-arrow">Ver plano →</div>
+</div>
+</a>
+
+<p class="section-title" style="margin-top:48px">⬜ Próximas campanhas</p>
+<div class="empty">Nenhuma campanha futura cadastrada ainda.</div>
+
+<p class="section-title" style="margin-top:48px">✅ Encerradas</p>
+<div class="empty">Nenhuma campanha encerrada ainda.</div>
+
+</div>
+
+<footer class="footer">
+<strong>OpenCapital</strong> — repositório de planos &amp; materiais
+</footer>
+
+</body>
+</html>

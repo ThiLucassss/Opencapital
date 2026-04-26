@@ -1,0 +1,37 @@
+===============================================================================
+CAMPANHA: Live 28/04 - Print & Trade
+PEÇA: W1 - Aviso curto após E1
+DISPARO: Originalmente Ter 22/04 19h30 | Replanejado: Sex 24/04 ~30 min após E1
+CANAL: WhatsApp — disparo em GRUPOS (broadcast, não 1-a-1)
+
+LINKS (2, padrão Robson — prova social + ação):
+  🎥 YouTube: https://youtu.be/yeUXsAWhHSw
+     (vídeo "1.700 reais de lucro com IA para day trade" · 5,2 mil views)
+  🔐 Landing: https://lp.theopencapital.org/convite-live-28abr
+
+TRACKING:
+  - YouTube: medido via YouTube Studio (fonte "External", picos no horário)
+  - Landing: medido via AC Site Tracking (detecta qualquer visita a
+    /convite-live-28abr, sem depender de UTM na URL incoming)
+  - Conversão: medida via UTM no BOTÃO INTERNO da landing que leva
+    pra /live-28abr-confirmado. Esse botão deve carregar:
+    ?utm_source=landing-convite&utm_medium=cta&utm_campaign=live28abr
+    Assim identificamos quem efetivamente confirmou via essa rota.
+
+PERSONALIZAÇÃO: nenhuma (disparo em grupo)
+FORMATAÇÃO: WhatsApp nativo — *asterisco* para negrito, sem markdown/HTML
+===============================================================================
+
+Pergunta rápida: você ainda tá *estudando análise técnica* em 2026?
+
+Esse vídeo é de semana passada — *1.700 reais de lucro em 1 operação* com IA. Sem edição, sem corte.
+
+🎥 *Assistir no YouTube:*
+https://youtu.be/yeUXsAWhHSw
+
+Segunda-feira, *28 de abril às 20h*, eu entro ao vivo. Vou rodar essa mesma IA em tempo real, em 4 ativos diferentes. Pra quem estiver presente, abro uma *oferta exclusiva que só vale durante a transmissão*.
+
+Sem inscrição. Sem replay. 1 clique e tá dentro:
+
+🔐 *Confirmar presença na live:*
+https://lp.theopencapital.org/convite-live-28abr

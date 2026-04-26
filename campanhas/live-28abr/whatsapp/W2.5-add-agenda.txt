@@ -1,0 +1,34 @@
+===============================================================================
+CAMPANHA: Live 28/04 - Print & Trade
+PEÇA: W2.5 - Add na agenda (EXTRA, não consta no brief)
+DISPARO: Dom 26/04 - qualquer hora
+CANAL: WhatsApp - disparo em GRUPOS
+FUNÇÃO: compromisso de calendário entre W2 (sáb) e W3 (dom 20h áudio)
+
+LINKS:
+  📅 Google Calendar (encurtar via Rebrandly antes de mandar):
+     https://calendar.google.com/calendar/event?action=TEMPLATE&text=OpenCapital+-+Live+IA+Print+%26+Trade&dates=20260428T230000Z%2F20260429T003000Z&details=Live+ao+vivo+%E2%80%94+como+a+IA+Print+%26+Trade+funciona+por+dentro.%0A%0AEsteja+online+%C3%A0s+19%3A55+%28hor%C3%A1rio+de+Bras%C3%ADlia%29.%0AA+oferta+exclusiva+acontece+no+fim+%E2%80%94+s%C3%B3+pra+quem+estiver+ao+vivo.%0A%0AO+link+da+transmiss%C3%A3o+ser%C3%A1+enviado+pelo+WhatsApp+1+hora+antes.&location=100%25+Online+-+Link+enviado+pelo+WhatsApp
+
+     Sugestão de slug Rebrandly: lp.theopencapital.org/agenda
+     ou: cal.theopencapital.org/live
+
+  🔐 Fallback Apple Calendar (botão .ics na landing):
+     https://lp.theopencapital.org/convite-live-28abr
+
+PERSONALIZAÇÃO: nenhuma (disparo em grupo)
+FORMATAÇÃO: WhatsApp nativo (*asterisco* para negrito)
+
+⚠️ ANTES DE ENVIAR: substituir {{REBRANDLY_LINK}} pelo link encurtado real
+===============================================================================
+
+Coloca na agenda agora pra não esquecer 👇
+
+*LIVE OpenCapital — Segunda 28/04 às 20h*
+🤖 IA rodando ao vivo em 4 ativos
+🔐 Oferta exclusiva só pra quem tá presente
+
+Adiciona em 1 toque (Google Calendar):
+{{REBRANDLY_LINK}}
+
+Se for iPhone e não abrir, o botão Apple Calendar tá aqui:
+https://lp.theopencapital.org/convite-live-28abr

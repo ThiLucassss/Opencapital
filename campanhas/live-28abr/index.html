@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campanha Live 28/04 · Print & Trade — OpenCapital</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:#F4F6FA;color:#374151;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:#2479FB;text-decoration:none}
+a:hover{text-decoration:underline}
+code{font-family:'SF Mono',Consolas,monospace;font-size:.88em;background:#F3F4F6;padding:2px 6px;border-radius:4px;color:#141417}
+strong{color:#141417}
+
+/* Hero */
+.hero{background:#08080B;color:#fff;padding:80px 32px 64px;text-align:left;border-bottom:4px solid #2479FB}
+.hero-inner{max-width:920px;margin:0 auto}
+.hero .kicker{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;color:#9CA3AF;text-transform:uppercase;margin-bottom:8px}
+.hero .brand{font-family:'DM Sans',sans-serif;font-size:18px;font-weight:800;color:#fff;margin-bottom:48px}
+.hero .brand span{color:#2479FB}
+.hero .badge{display:inline-block;background:#DC2626;color:#fff;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 12px;border-radius:4px;margin-bottom:24px}
+.hero h1{font-family:'DM Sans',sans-serif;font-size:54px;font-weight:800;line-height:1.05;color:#fff;margin-bottom:20px;letter-spacing:-1px}
+.hero .lead{font-size:16px;color:#9CA3AF;max-width:620px;line-height:1.6;margin-bottom:48px}
+.hero .meta{display:flex;gap:48px;border-top:1px solid #1F2937;padding-top:24px;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;color:#6B7280;text-transform:uppercase}
+.hero .meta strong{color:#fff}
+
+/* Section wrapper */
+.wrap{max-width:920px;margin:0 auto;padding:48px 32px}
+.section{background:#fff;border-radius:8px;padding:40px;margin-bottom:24px;border:1px solid #E5E7EB}
+.section-num{display:inline-block;background:#141417;color:#fff;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;padding:4px 10px;border-radius:4px;margin-right:12px;vertical-align:middle}
+h2{font-family:'DM Sans',sans-serif;font-size:28px;font-weight:700;color:#141417;margin-bottom:8px;line-height:1.2}
+h2 .section-num{font-size:14px;padding:6px 12px}
+h3{font-family:'DM Sans',sans-serif;font-size:18px;font-weight:700;color:#141417;margin:24px 0 12px;line-height:1.3}
+.section-lead{font-size:14px;color:#6B7280;margin-bottom:24px;line-height:1.7}
+
+/* Section divider (full-width) */
+.divider{background:#08080B;color:#fff;padding:64px 32px;text-align:center;margin:48px -32px;border-radius:0}
+.divider .label{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;color:#2479FB;text-transform:uppercase;margin-bottom:12px}
+.divider h2{font-family:'DM Sans',sans-serif;font-size:64px;font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:8px}
+.divider .sub{font-family:'DM Sans',sans-serif;font-size:18px;font-weight:600;color:#9CA3AF}
+.divider .sub-2{font-size:13px;color:#6B7280;margin-top:14px;font-family:'Manrope',sans-serif;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.6}
+
+/* Tables */
+table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:13.5px}
+table th{background:#141417;color:#fff;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;text-align:left;padding:12px 14px}
+table td{padding:12px 14px;border-bottom:1px solid #F3F4F6;vertical-align:top}
+table tr:last-child td{border-bottom:none}
+table tr:hover td{background:#FAFBFC}
+
+/* Status pills */
+.pill{display:inline-block;font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;letter-spacing:.5px;padding:3px 8px;border-radius:4px;text-transform:uppercase}
+.pill-done{background:#D1FAE5;color:#065F46}
+.pill-now{background:#FEF3C7;color:#92400E}
+.pill-todo{background:#DBEAFE;color:#1E40AF}
+.pill-live{background:#FEE2E2;color:#991B1B}
+
+/* Card de peça (email/whatsapp) */
+.peca{border:1px solid #E5E7EB;border-radius:8px;padding:24px;margin:20px 0;background:#fff;border-left:4px solid #2479FB}
+.peca-w{border-left-color:#16A34A}
+.peca-extra{border-left-color:#F59E0B}
+.peca-todo{border-left-color:#9CA3AF}
+.peca-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #F3F4F6}
+.peca-title{font-family:'DM Sans',sans-serif;font-size:14px;font-weight:700;color:#2479FB;letter-spacing:.5px}
+.peca-w .peca-title{color:#16A34A}
+.peca-extra .peca-title{color:#F59E0B}
+.peca-todo .peca-title{color:#6B7280}
+.peca-meta{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:600;color:#6B7280;letter-spacing:.5px}
+.peca-meta code{background:none;padding:0;color:#141417;font-weight:700}
+.gatilho{font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;color:#DC2626;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:10px}
+.kv{margin:0 0 14px;font-size:13px}
+.kv-row{display:grid;grid-template-columns:88px 1fr;gap:12px;padding:6px 0;border-bottom:1px dotted #F3F4F6}
+.kv-row:last-child{border-bottom:none}
+.kv-label{font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;color:#6B7280;letter-spacing:1px;text-transform:uppercase;padding-top:2px}
+.kv-val{color:#141417;font-weight:500}
+.kv-val.assunto{background:#FEF3C7;padding:6px 10px;border-radius:4px;font-weight:600}
+
+/* Body preview (texto compacto) */
+.body-preview{background:#F9FAFB;border-radius:6px;padding:14px 16px;margin:14px 0;font-size:13px;line-height:1.65;color:#4B5563;border-left:3px solid #E5E7EB;font-style:italic}
+.body-preview strong{color:#141417;font-style:normal}
+
+/* WhatsApp bubble */
+.wa-bubble{background:#DCF8C6;border-radius:8px;padding:14px 16px;margin:14px 0;font-size:13px;line-height:1.7;color:#141417;font-family:'Segoe UI',Roboto,sans-serif;white-space:pre-wrap;border-radius:8px 8px 8px 0}
+.wa-bubble em{color:#075E54;font-weight:700;font-style:normal}
+
+/* Adaptações */
+.adapt{background:#EFF6FF;border-left:3px solid #2479FB;border-radius:4px;padding:14px 18px;margin-top:16px}
+.adapt-title{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;color:#2479FB;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px}
+.adapt ul{padding-left:20px;font-size:13px;color:#374151;line-height:1.7}
+.adapt ul li{margin:3px 0}
+.adapt strong{color:#141417}
+
+/* File ref */
+.fileref{display:inline-block;font-family:'SF Mono',Consolas,monospace;font-size:12px;background:#141417;color:#9CA3AF;padding:4px 10px;border-radius:4px;margin-top:10px}
+.fileref::before{content:'📁 ';font-family:sans-serif}
+
+/* Pendência callout */
+.warn{background:#FEF3C7;border-left:3px solid #F59E0B;padding:14px 18px;border-radius:4px;margin:16px 0;font-size:13.5px}
+.warn strong{color:#92400E}
+
+/* TOC navigation */
+.toc{position:sticky;top:0;background:rgba(244,246,250,.95);backdrop-filter:blur(8px);padding:12px 32px;border-bottom:1px solid #E5E7EB;z-index:10;font-family:'DM Sans',sans-serif;font-size:12px}
+.toc-inner{max-width:920px;margin:0 auto;display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+.toc a{color:#6B7280;font-weight:600;letter-spacing:.5px}
+.toc a:hover{color:#2479FB;text-decoration:none}
+
+/* Footer */
+.footer{text-align:center;padding:48px 32px;color:#9CA3AF;font-size:12px;line-height:1.7;border-top:1px solid #E5E7EB;background:#fff;margin-top:48px}
+.footer strong{color:#374151}
+
+@media (max-width:680px){
+  .hero h1{font-size:36px}
+  .hero{padding:48px 20px 40px}
+  .hero .meta{flex-direction:column;gap:8px}
+  .wrap{padding:24px 16px}
+  .section{padding:24px 18px}
+  .divider{padding:40px 20px;margin:32px -18px}
+  .divider h2{font-size:42px}
+  .peca{padding:18px}
+  .kv-row{grid-template-columns:1fr;gap:2px}
+  .toc{padding:10px 16px;font-size:11px}
+  table{font-size:12px}
+  table th,table td{padding:8px 10px}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+<div class="hero-inner">
+<p class="kicker">UMA APLICAÇÃO</p>
+<p class="brand">OPEN<span>CAPITAL</span></p>
+<span class="badge">Campanha — Live 28/04 às 20h · V2 Executada</span>
+<h1>Convite Matador<br>Live IA · Print &amp; Trade</h1>
+<p class="lead">5 emails + 5 WhatsApps + 1 mensagem extra de calendário · disparo em <strong style="color:#fff">grupos</strong> de WhatsApp · captação por <strong style="color:#fff">1 clique</strong> (sem formulário) · base ~5.004 leads no AC. Vídeos do YouTube como prova viva.</p>
+<div class="meta">
+<div><strong>OPERACIONAL V2 EXECUTADA</strong> · ABR/2026</div>
+<div><strong>11 PEÇAS</strong> · 6 DIAS</div>
+</div>
+</div>
+</header>
+
+<!-- TOC -->
+<nav class="toc">
+<div class="toc-inner">
+<a href="#s1">01 · Visão geral</a>
+<a href="#s2">02 · Setup &amp; métricas</a>
+<a href="#emails">Seção 1 · Emails</a>
+<a href="#whatsapp">Seção 2 · WhatsApp</a>
+<a href="#s3">03 · Páginas</a>
+<a href="#s4">04 · Notas finais</a>
+</div>
+</nav>
+
+<div class="wrap">
+
+<!-- SEÇÃO 01 -->
+<section class="section" id="s1">
+<h2><span class="section-num">01</span> Visão geral e cronograma</h2>
+<p class="section-lead">Decisões mantidas do brief: sem inscrição (1 clique = lista + tag), vídeos do YouTube como prova viva, agressividade máxima, foco em "como a IA funciona". Decisões refinadas no chat: WhatsApp em <strong>grupos</strong> (não 1-a-1), 2 links sempre, 2 CTAs no email, valores informais anti-spam, mensagem extra de calendário (W2.5).</p>
+
+<h3>Os 4 vídeos (LINK 1-4)</h3>
+<table>
+<thead><tr><th style="width:60px">#</th><th>Vídeo</th><th style="width:160px">YouTube ID</th><th style="width:80px">Views</th></tr></thead>
+<tbody>
+<tr><td><strong>LINK 1</strong></td><td>1.700 reais de lucro com IA para day trade</td><td><code>yeUXsAWhHSw</code></td><td>5,2 mil</td></tr>
+<tr><td><strong>LINK 2</strong></td><td>FAZENDO DAY TRADE COM IA — PASSO A PASSO</td><td><code>2HV4noYpbaE</code></td><td>9,2 mil</td></tr>
+<tr><td><strong>LINK 3</strong></td><td>GANHEI R$ 2.255,00 DE LUCRO COM ESSA IA</td><td><code>gG2bUUwDFpE</code></td><td>3,6 mil</td></tr>
+<tr><td><strong>LINK 4</strong></td><td>A MELHOR IA PARA GANHAR COM DAY TRADE</td><td><code style="background:#FEE2E2;color:#991B1B">⚠️ ID pendente</code></td><td>4,6 mil</td></tr>
+</tbody>
+</table>
+<p style="font-size:13px;color:#6B7280;margin-top:-12px">Total: 22,6 mil views em 8 dias.</p>
+
+<h3>Cronograma das 11 peças</h3>
+<table>
+<thead><tr><th>Dia · Hora</th><th>Email</th><th>WhatsApp grupo</th><th>Vídeo</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td><strong>Sex 24/04</strong> · 17h</td><td>E1 Anúncio + ataque</td><td>W1 Aviso curto (17h30)</td><td>1 + 2</td><td><span class="pill pill-done">Enviado</span></td></tr>
+<tr><td><strong>Sáb 25/04</strong> · 17h</td><td>E2 Promessa falsa morta</td><td>W2 Provocação (17h30)</td><td>3</td><td><span class="pill pill-done">Enviado</span></td></tr>
+<tr><td><strong>Dom 26/04</strong></td><td>—</td><td>W2.5 Add na agenda</td><td>—</td><td><span class="pill pill-now">Hoje</span></td></tr>
+<tr><td><strong>Dom 27/04</strong> · 19h/20h</td><td>E3 Recap + último call</td><td>W3 Áudio Suriel 50s</td><td>4</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+<tr><td><strong>Seg 28/04</strong> · 9h/12h</td><td>E4 É hoje</td><td>W4 Lembrete</td><td>—</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+<tr><td><strong>Seg 28/04</strong> · 19h/19h55</td><td>E5 1h antes</td><td>W5 5 min antes</td><td>—</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+<tr><td><strong>Seg 28/04</strong> · 20h00</td><td colspan="3">LIVE — 90 min · 4 ativos · oferta exclusiva no fim</td><td><span class="pill pill-live">LIVE</span></td></tr>
+</tbody>
+</table>
+</section>
+
+<!-- SEÇÃO 02 -->
+<section class="section" id="s2">
+<h2><span class="section-num">02</span> Setup técnico e métricas</h2>
+
+<h3>ActiveCampaign (já configurado)</h3>
+<table>
+<tbody>
+<tr><td style="width:160px"><strong>Lista</strong></td><td><code>LIVE-28ABR-CONFIRMADOS</code> (ID 8)</td></tr>
+<tr><td><strong>Tag</strong></td><td><code>quer-live-ia-28abr</code> (ID 9)</td></tr>
+<tr><td><strong>Automation</strong></td><td>Site Tracking detecta visita a <code>/live-28abr-confirmado</code> → adiciona à lista + aplica tag</td></tr>
+</tbody>
+</table>
+
+<h3>URLs e UTMs</h3>
+<table>
+<thead><tr><th>Onde</th><th>URL</th></tr></thead>
+<tbody>
+<tr><td><strong>CTA email</strong></td><td><code>lp.theopencapital.org/live-28abr-confirmado</code> + <code>?utm_source=email&utm_medium=campaign&utm_campaign=live28abr&utm_content=email{N}-cta</code></td></tr>
+<tr><td><strong>CTA WhatsApp</strong></td><td><code>lp.theopencapital.org/convite-live-28abr</code> (sem UTM no incoming, captura por Site Tracking)</td></tr>
+<tr><td><strong>Vídeos email</strong></td><td><code>youtube.com/watch?v=&lt;id&gt;</code> + <code>&utm_content=email{N}-video1</code></td></tr>
+</tbody>
+</table>
+
+<h3>Métricas-alvo</h3>
+<table>
+<thead><tr><th>Métrica</th><th>Mínimo</th><th>Saudável</th><th>Excelente</th></tr></thead>
+<tbody>
+<tr><td>Abertura email</td><td>30%</td><td>40%</td><td>50%+</td></tr>
+<tr><td>Clique CTA email</td><td>15% (~735)</td><td>25% (~1.225)</td><td>35%+ (~1.715)</td></tr>
+<tr><td>Clique vídeo YouTube</td><td>5% (~245)</td><td>10% (~490)</td><td>15%+ (~735)</td></tr>
+<tr><td>Confirmados → ao vivo</td><td>40%</td><td>55%</td><td>70%+</td></tr>
+<tr><td>Vendas via live</td><td>20</td><td>60</td><td>120+</td></tr>
+</tbody>
+</table>
+
+<div class="warn">
+<strong>Pendências bloqueadoras:</strong>
+<ol style="padding-left:20px;margin-top:6px">
+<li><strong>LINK 4</strong> — ID do YouTube ("A melhor IA pra ganhar"). Sem isso, E3 sem vídeo.</li>
+<li><strong>Oferta exclusiva</strong> — A) desconto · B) bônus · C) vitalício · <strong>D) combo (rec.)</strong>. Sem decisão, P.S./gancho E4-E5 fica genérico.</li>
+<li><strong>Áudio do W3</strong> — Suriel grava 50-60s até dom 27/04 18h.</li>
+</ol>
+</div>
+</section>
+
+<!-- DIVIDER EMAILS -->
+<div class="divider" id="emails">
+<p class="label">Seção 1 de 2</p>
+<h2>EMAILS</h2>
+<p class="sub">5 mensagens · 6 dias · agressividade máxima</p>
+<p class="sub-2">Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no YouTube.</p>
+</div>
+
+<!-- E1 -->
+<div class="peca">
+<div class="peca-header">
+<div><span class="peca-title">EMAIL 1 — ANÚNCIO + ATAQUE</span><br><span class="gatilho">▼ Ataque ao "estudou anos sem resultado"</span></div>
+<div class="peca-meta"><code>Sex 24/04 · 17h · D-4</code> <span class="pill pill-done">Enviado</span></div>
+</div>
+<div class="kv">
+<div class="kv-row"><div class="kv-label">Assunto</div><div class="kv-val assunto">Você ainda tá estudando análise técnica em 2026?</div></div>
+<div class="kv-row"><div class="kv-label">Preview</div><div class="kv-val">22 mil views em 8 dias mostram o que a IA tá fazendo. Live segunda 20h.</div></div>
+<div class="kv-row"><div class="kv-label">Vídeos</div><div class="kv-val">LINK 1 + LINK 2</div></div>
+</div>
+<div class="body-preview">%FIRSTNAME%, pergunta direta — quanto tempo você gastou nos últimos 3 anos olhando vídeo de YouTube? 100h? 500h? 1.000h? Soma. Provavelmente passou de cinco mil. Resultado? <strong>Continuo perdendo.</strong> Não tô te julgando — fui isso por 8 anos. <strong>[CTA TOP]</strong> Mas presta atenção: <strong>[VÍDEO 1 + VÍDEO 2]</strong>. 22 mil views em 8 dias. <strong>Estudar análise técnica em 2026 é como aprender cálculo no ábaco.</strong> <strong>[HERO DATE 28/04 20H00]</strong>. Segunda vou rodar a IA ao vivo em 4 ativos + oferta exclusiva. 1 clique. <strong>[CTA BOTTOM]</strong>. P.S. — Se você abriu mas não vai clicar, daqui a 6 meses você vai estar onde tá hoje.</div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Valores em R$ informais ("cinco mil")</li>
+<li><strong>2 botões CTA</strong> (top above-the-fold + bottom) — brief tinha 1 só</li>
+<li>Header tag vermelho com countdown (<code>AO VIVO · SEG 28/04 · 20H</code>)</li>
+<li>Hero date block preto com 28/04 · 20H00 destacado</li>
+<li>Sub-CTA "SEG 28/04 · 19H → link no WhatsApp"</li>
+<li>Assinatura caligráfica + "Embaixador OpenCapital"</li>
+<li>Footer legal Ports Capital + unsubscribe</li>
+<li>Sem imagens externas além das thumbnails YouTube</li>
+</ul>
+</div>
+<div class="fileref">emails/E1-anuncio-ataque.html</div>
+</div>
+
+<!-- E2 -->
+<div class="peca">
+<div class="peca-header">
+<div><span class="peca-title">EMAIL 2 — PROMESSA FALSA MORTA</span><br><span class="gatilho">▼ Ataque à indústria de gurus</span></div>
+<div class="peca-meta"><code>Sáb 25/04 · 17h · D-3</code> <span class="pill pill-done">Enviado</span></div>
+</div>
+<div class="kv">
+<div class="kv-row"><div class="kv-label">Assunto</div><div class="kv-val assunto">A era das promessas falsas acabou (segunda 20h)</div></div>
+<div class="kv-row"><div class="kv-label">Preview</div><div class="kv-val">2.255 reais de lucro em uma operação. Sem curso, sem grupo, sem guru.</div></div>
+<div class="kv-row"><div class="kv-label">Vídeo</div><div class="kv-val">LINK 3</div></div>
+</div>
+<div class="body-preview">%FIRSTNAME%, vou te falar uma coisa que ninguém no mercado fala: <strong>A era das promessas falsas acabou.</strong> Aquele guru com Lamborghini alugada que te vendeu mentoria de dez mil. Aquele grupo VIP de Telegram que sumiu. Aquele robô de copy trade que zerou a banca. Aquele curso de quase 4 mil que te ensinou Fibonacci mas não te ensinou apertar botão sem tremer. <strong>Tudo isso morreu na segunda metade de 2025.</strong> A tecnologia chegou no celular do trader. <strong>[CTA TOP]</strong>. Olha: <strong>[VÍDEO 3 — R$ 2.255]</strong>. Não é mágica. É o resultado normal de quem opera com tecnologia institucional. <strong>[HERO DATE]</strong>. Segunda 28/04 · 20h00 ao vivo. <strong>[CTA BOTTOM]</strong>. P.S. — Eu não vendo curso. <strong>Eu vendo a saída.</strong></div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Brief: sex 25/04 11h · executado: sáb 25/04 17h (atraso reposicionado)</li>
+<li>Valores informais ("dez mil", "quase 4 mil")</li>
+<li>2 botões CTA (top + bottom)</li>
+<li>Mesmo padrão visual do E1 (header tag, hero date, sub-CTA, assinatura, footer)</li>
+<li>P.S. mantido literal do brief ("Eu vendo a saída")</li>
+</ul>
+</div>
+<div class="fileref">emails/E2-promessa-falsa.html</div>
+</div>
+
+<!-- E3 -->
+<div class="peca peca-todo">
+<div class="peca-header">
+<div><span class="peca-title">EMAIL 3 — RECAP + ÚLTIMO CALL</span><br><span class="gatilho">▼ Última chance + dor específica</span></div>
+<div class="peca-meta"><code>Dom 27/04 · 19h · D-1</code> <span class="pill pill-todo">A fazer</span></div>
+</div>
+<div class="kv">
+<div class="kv-row"><div class="kv-label">Assunto</div><div class="kv-val assunto">Amanhã 20h · sem mão tremendo, sem dúvida, sem estudo eterno</div></div>
+<div class="kv-row"><div class="kv-label">Preview</div><div class="kv-val">A IA resolve em 2 segundos o que você não consegue há 5 anos.</div></div>
+<div class="kv-row"><div class="kv-label">Vídeo</div><div class="kv-val">LINK 4</div></div>
+</div>
+<div class="body-preview">%FIRSTNAME%, amanhã 20h00 ao vivo. Você abre o gráfico, vê uma entrada que parece boa, <strong>a mão treme</strong>. "Será que é mesmo? Deixa eu olhar mais um indicador..." 5 minutos depois o preço já foi. Esse padrão tem quanto tempo? 5 anos? 8 anos? Ou o oposto: aperta na primeira coisa pra recuperar a perda, dá errado, segura achando que volta, sai no stop perdendo o dobro. <strong>Isso vai parar quando?</strong> <strong>[CTA TOP]</strong>. Acabou de parar pra todo mundo que assistiu: <strong>[VÍDEO 4]</strong>. 4.600 pessoas em 8 dias. <strong>A saída é uma IA que faz a análise por você. Você só executa.</strong> <strong>[HERO DATE — AMANHÃ]</strong>. 90 min · 4 ativos · oferta exclusiva no fim. <strong>[CTA BOTTOM]</strong>. P.S. — Continuar fazendo o que tá fazendo (e ter o mesmo resultado). Ou clicar agora. <strong>Pensa direito.</strong></div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Header tag muda pra <code>FALTA 1 DIA · LIVE SEG 28/04 · 20H</code></li>
+<li>Hero date block adapta texto pra "AMANHÃ · SEGUNDA 28 DE ABRIL · 20H00"</li>
+<li>2 botões CTA (top + bottom)</li>
+<li>Assunto encurtado ("mão tremendo" no lugar de "decisão emocional" — mais visceral)</li>
+<li>Resto do padrão visual mantido</li>
+</ul>
+</div>
+<div class="fileref">emails/E3-recap-ultimo-call.html (a criar)</div>
+</div>
+
+<!-- E4 -->
+<div class="peca peca-todo">
+<div class="peca-header">
+<div><span class="peca-title">EMAIL 4 — É HOJE</span><br><span class="gatilho">▼ Compromisso + expectativa</span></div>
+<div class="peca-meta"><code>Seg 28/04 · 9h · DIA D</code> <span class="pill pill-todo">A fazer</span></div>
+</div>
+<div class="kv">
+<div class="kv-row"><div class="kv-label">Assunto</div><div class="kv-val assunto">É HOJE · 20h · você vai ver a IA operando</div></div>
+<div class="kv-row"><div class="kv-label">Preview</div><div class="kv-val">Bloqueia 90 minutos. Sai do trabalho 19h45 se for o caso. Não tem replay completo.</div></div>
+</div>
+<div class="body-preview">%FIRSTNAME%, é hoje. 20h00 ao vivo, sem replay. 3 coisas pra tirar máximo: <strong>(1) Bloqueia 90 min sem distração</strong> · <strong>(2) Pensa antes na sua maior dor com trading</strong> · <strong>(3) Reserva um momento pra decidir, no fim</strong> — oferta exclusiva nos últimos 15 min. <strong>[CTA TOP]</strong>. Link da transmissão pelo WhatsApp 19h. Salva o número da OpenCapital pra não cair em spam. <strong>[HERO DATE — HOJE 28/04 20H00]</strong>. <strong>[CTA BOTTOM]</strong>. P.S. — Oferta tem condições específicas que não posso replicar depois. Se não estiver lá entre 21h15-21h30, perde. <strong>É ao vivo ou nada.</strong></div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Header tag pulsa: <code>● HOJE · 20H · AO VIVO</code></li>
+<li>Hero date block muda pra "HOJE · 28 DE ABRIL · 20H00 EM PONTO"</li>
+<li>2 botões CTA (top + bottom)</li>
+<li>Sub-CTA muda pra "LINK DA TRANSMISSÃO → no WhatsApp às 19h"</li>
+</ul>
+</div>
+<div class="fileref">emails/E4-e-hoje.html (a criar)</div>
+</div>
+
+<!-- E5 -->
+<div class="peca peca-todo">
+<div class="peca-header">
+<div><span class="peca-title">EMAIL 5 — 1 HORA ANTES</span><br><span class="gatilho">▼ Ação imediata</span></div>
+<div class="peca-meta"><code>Seg 28/04 · 19h · 1H ANTES</code> <span class="pill pill-todo">A fazer</span></div>
+</div>
+<div class="kv">
+<div class="kv-row"><div class="kv-label">Assunto</div><div class="kv-val assunto">⏰ 1 hora · link aqui dentro</div></div>
+<div class="kv-row"><div class="kv-label">Preview</div><div class="kv-val">Clica agora pra confirmar conexão. Salva o link. Te vejo às 20h.</div></div>
+</div>
+<div class="body-preview">%FIRSTNAME%, 1 hora. Link da transmissão: <strong>[BOTÃO GRANDE — ENTRAR NA LIVE AGORA → {{LINK_DA_LIVE}}]</strong>. Recomendações: ✓ clica agora e deixa aba aberta · ✓ celular na tomada · ✓ fecha abas pesadas · ✓ confere áudio 5 min antes · ✓ tira do silencioso. Começo 20h00. Espero 2 min e parto. <strong>{{N_CONFIRMADOS}} pessoas confirmadas</strong>. Capacidade: 2.000 simultâneos — se passar, alguém fica de fora. <strong>[CTA fallback]</strong>. P.S. — Oferta começa 21h15. Se quer só "dar uma olhada e sair", entra mesmo assim. <strong>Mas se quiser pegar a oferta, fica até o fim.</strong></div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Header tag: <code>● COMEÇA EM 1 HORA · HOJE 20H</code></li>
+<li>Botão de destaque (não os 2 padrões) — esse email é sobre o link da live, não conversão</li>
+<li>Placeholders <code>{{LINK_DA_LIVE}}</code> e <code>{{N_CONFIRMADOS}}</code> pra preencher na hora</li>
+<li>Bloco de checklist visual (✓) substituindo a lista corrida do brief</li>
+<li>1 CTA fallback no fim pra quem ainda não confirmou</li>
+</ul>
+</div>
+<div class="fileref">emails/E5-1h-antes.html (a criar)</div>
+</div>
+
+<!-- DIVIDER WHATSAPP -->
+<div class="divider" id="whatsapp">
+<p class="label">Seção 2 de 2</p>
+<h2>WHATSAPP GRUPOS</h2>
+<p class="sub">5 mensagens + 1 extra · 6 dias</p>
+<p class="sub-2"><strong style="color:#fff">Disparo em grupos</strong> (broadcast), não 1-a-1. Sem <code style="color:#9CA3AF;background:#1F2937">[Nome]</code>. Sempre 2 links: 🎥 YouTube + 🔐 Landing.</p>
+</div>
+
+<!-- W1 -->
+<div class="peca peca-w">
+<div class="peca-header">
+<div><span class="peca-title">WHATSAPP 1 — AVISO CURTO</span><br><span class="gatilho">▼ Ataque curto + aviso</span></div>
+<div class="peca-meta"><code>Sex 24/04 · ~17h30</code> <span class="pill pill-done">Enviado</span></div>
+</div>
+<div class="wa-bubble">Pergunta rápida: você ainda tá <em>estudando análise técnica</em> em 2026?
+
+Esse vídeo é de semana passada — <em>1.700 reais de lucro em 1 operação</em>.
+
+🎥 <em>Assistir no YouTube:</em>
+youtu.be/yeUXsAWhHSw
+
+Segunda <em>28/04 às 20h</em> eu rodo essa IA ao vivo em 4 ativos. <em>Oferta exclusiva</em> só durante a transmissão.
+
+🔐 <em>Confirmar:</em>
+lp.theopencapital.org/convite-live-28abr</div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Adaptado pra <strong>grupos</strong> (sem <code>[Nome]</code>, sem "Suriel.")</li>
+<li><strong>2 links</strong> (YouTube + landing) — brief só tinha 1 link de cada</li>
+<li>Tom direto, formatação <code>*negrito*</code> nativa do WhatsApp</li>
+</ul>
+</div>
+<div class="fileref">whatsapp/W1-aviso-curto.txt</div>
+</div>
+
+<!-- W2 -->
+<div class="peca peca-w">
+<div class="peca-header">
+<div><span class="peca-title">WHATSAPP 2 — PROVOCAÇÃO</span><br><span class="gatilho">▼ Provocação + guru Lamborghini</span></div>
+<div class="peca-meta"><code>Sáb 25/04 · ~17h30</code> <span class="pill pill-done">Enviado</span></div>
+</div>
+<div class="wa-bubble">Quanto você já gastou em curso, grupo VIP, robô de copy trade? E o resultado?
+
+<em>A era das promessas falsas acabou.</em>
+
+🎥 <em>2.255 de lucro com a IA em 1 operação:</em>
+youtu.be/gG2bUUwDFpE
+
+Segunda <em>28/04 às 20h</em> eu rodo essa IA ao vivo. Sem replay. Oferta exclusiva só pra quem tá presente.
+
+🔐 <em>Confirmar:</em>
+lp.theopencapital.org/convite-live-28abr</div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Brief: sex 25/04 14h · executado: sáb 25/04 17h30</li>
+<li><strong>Encurtado ~40%</strong> (cortei a soma "5 mil? 10 mil? 20 mil?" porque o gancho já entrega)</li>
+<li>Sem <code>[Nome]</code> (grupo)</li>
+<li>2 links</li>
+</ul>
+</div>
+<div class="fileref">whatsapp/W2-provocacao.txt</div>
+</div>
+
+<!-- W2.5 -->
+<div class="peca peca-extra">
+<div class="peca-header">
+<div><span class="peca-title">WHATSAPP 2.5 — ADD NA AGENDA</span><br><span class="gatilho">▼ Extra · compromisso de calendário</span></div>
+<div class="peca-meta"><code>Dom 26/04 · qualquer hora</code> <span class="pill pill-now">Hoje</span></div>
+</div>
+<div class="wa-bubble">Coloca na agenda agora pra não esquecer 👇
+
+<em>LIVE OpenCapital — Segunda 28/04 às 20h</em>
+🤖 IA ao vivo em 4 ativos
+🔐 Oferta exclusiva só ao vivo
+
+Adiciona em 1 toque (Google Calendar):
+{{REBRANDLY_LINK}}
+
+Se for iPhone e não abrir, o botão Apple Calendar tá aqui:
+lp.theopencapital.org/convite-live-28abr</div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li><strong>Peça nova</strong> (não estava no brief) — preenche o gap dom 26/04 entre W2 e W3</li>
+<li>Link Google Calendar gerado a partir do componente <code>Live28_CalButtons.tsx</code> da landing → encurtar via Rebrandly</li>
+<li>Fallback Apple via landing (que tem botões Google + Apple via .ics)</li>
+<li>Não substitui o W3 (áudio do Suriel)</li>
+</ul>
+</div>
+<div class="fileref">whatsapp/W2.5-add-agenda.txt (a criar)</div>
+</div>
+
+<!-- W3 -->
+<div class="peca peca-w peca-todo">
+<div class="peca-header">
+<div><span class="peca-title">WHATSAPP 3 — ÁUDIO SURIEL</span><br><span class="gatilho">▼ Áudio matador + compromisso pessoal</span></div>
+<div class="peca-meta"><code>Dom 27/04 · 20h</code> <span class="pill pill-todo">A fazer</span></div>
+</div>
+<p style="font-size:13px;color:#6B7280;margin:0 0 12px"><strong>Formato:</strong> áudio gravado no celular do Suriel (~50s) + 1 mensagem texto curta com link logo depois.</p>
+<p style="font-size:12px;font-family:'DM Sans',sans-serif;font-weight:700;color:#075E54;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">🎤 Script para Suriel gravar (tom: baixo, conversacional)</p>
+<div class="wa-bubble" style="background:#F0F9F4;border-left:3px solid #16A34A;border-radius:8px">"Oi, Suriel aqui. Tô gravando aqui no domingo à noite, um dia antes da live de amanhã. Olha, vou ser direto. Amanhã 20h é a live. Vou mostrar a IA funcionando ao vivo, vou abrir oferta exclusiva no fim, e não vai ter replay completo. Mas eu queria te falar uma coisa antes. Se você tá nesse grupo, é porque em algum momento de abril você se interessou pelo Print &amp; Trade. Mas não foi pra frente. E eu sei o que tá rolando na sua cabeça desde lá. 'Será que funciona mesmo?'. 'Vou esperar pra ver mais resultado'. 'Próxima'. Cara, o resultado já tá no YouTube. 22 mil views em 8 dias. 1.700 num vídeo, 2.255 em outro, mais 6 mil em outro. Não é teoria. Não é promessa. Tá lá pra qualquer um ver. Amanhã eu vou mostrar AO VIVO como aquilo é feito. Por dentro. Em tempo real. Bota na agenda. 20h. Te mando o link uma hora antes."</div>
+<p style="font-size:12px;font-family:'DM Sans',sans-serif;font-weight:700;color:#6B7280;letter-spacing:1px;text-transform:uppercase;margin:14px 0 8px">💬 Texto pós-áudio (1 min depois)</p>
+<div class="wa-bubble">🔐 <em>Confirmar presença na live:</em>
+lp.theopencapital.org/convite-live-28abr</div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Brief mencionava <code>[Nome]</code> · adaptado pra grupo ("Se você tá nesse grupo")</li>
+<li>Adicionei menção ao <strong>6 mil de lucro</strong> (vídeo do canal não citado no brief, dá mais força à prova social)</li>
+<li>Texto pós-áudio em mensagem separada (forma mais natural no grupo)</li>
+</ul>
+</div>
+<div class="fileref">whatsapp/W3-audio-suriel.txt (a criar)</div>
+</div>
+
+<!-- W4 -->
+<div class="peca peca-w peca-todo">
+<div class="peca-header">
+<div><span class="peca-title">WHATSAPP 4 — LEMBRETE DIA D</span><br><span class="gatilho">▼ Lembrete dia D</span></div>
+<div class="peca-meta"><code>Seg 28/04 · 12h</code> <span class="pill pill-todo">A fazer</span></div>
+</div>
+<div class="wa-bubble"><em>É HOJE</em> 🔴
+
+20h00 ao vivo.
+
+· Como a IA funciona por dentro
+· 4 análises em ativos diferentes
+· Q&amp;A no chat
+· <em>Oferta exclusiva no fim</em> (só ao vivo)
+
+Te mando o link às 19h.
+
+Reserva o horário. Sai do trabalho 19h45 se for o caso.
+
+Vale a pena.
+
+🔐 <em>Se ainda não confirmou:</em>
+lp.theopencapital.org/convite-live-28abr</div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Adicionei link da landing pra quem ainda não confirmou (brief não tinha CTA aqui)</li>
+<li>🔴 no lugar do emoji do brief (mais agressivo)</li>
+</ul>
+</div>
+<div class="fileref">whatsapp/W4-lembrete.txt (a criar)</div>
+</div>
+
+<!-- W5 -->
+<div class="peca peca-w peca-todo">
+<div class="peca-header">
+<div><span class="peca-title">WHATSAPP 5 — CHAMADA FINAL</span><br><span class="gatilho">▼ Chamada final · 5 min</span></div>
+<div class="peca-meta"><code>Seg 28/04 · 19h55</code> <span class="pill pill-todo">A fazer</span></div>
+</div>
+<div class="wa-bubble"><em>5 MINUTOS</em> 🔴
+
+→ {{LINK_DA_LIVE}}
+
+Tô entrando agora. Começo às 20h em ponto.
+
+Clica e entra antes que enche.</div>
+<div class="adapt">
+<div class="adapt-title">🔧 Adaptações aplicadas vs brief</div>
+<ul>
+<li>Praticamente literal do brief (já estava enxuto)</li>
+<li>Placeholder <code>{{LINK_DA_LIVE}}</code> pra preencher na hora</li>
+</ul>
+</div>
+<div class="fileref">whatsapp/W5-5min.txt (a criar)</div>
+</div>
+
+<!-- SEÇÃO 03 -->
+<section class="section" id="s3" style="margin-top:48px">
+<h2><span class="section-num">03</span> Páginas Framer</h2>
+<p class="section-lead">Já existentes no projeto Framer "O novo jeito de fazer dinheiro".</p>
+
+<h3><code>/convite-live-28abr</code> — destino do WhatsApp</h3>
+<p style="font-size:14px">Hero badge <code>● AO VIVO · SEG 28/04 · 20H</code> · H1 <em>"Você ainda tá estudando análise técnica em 2026?"</em> · vídeos LINK 1 + LINK 2 inline (iframe) · countdown · event card · CTA → <code>/live-28abr-confirmado</code> · reminder footer.</p>
+
+<h3><code>/live-28abr-confirmado</code> — thank you do email + CTA</h3>
+<p style="font-size:14px">Hero <code>✓ VOCÊ TÁ DENTRO</code> · H1 <em>"Te vejo segunda às 20h"</em> · countdown · event card · botões Google Calendar + Apple Calendar (.ics) · reminder footer. <strong>Site Tracking ativo</strong> dispara a automation no AC.</p>
+</section>
+
+<!-- SEÇÃO 04 -->
+<section class="section" id="s4">
+<h2><span class="section-num">04</span> Notas operacionais finais</h2>
+
+<h3>Pendências bloqueadoras (recap)</h3>
+<ul style="padding-left:24px;font-size:14px;line-height:1.9">
+<li>☐ <strong>LINK 4</strong> — ID YouTube ("A melhor IA pra ganhar")</li>
+<li>☐ <strong>Oferta exclusiva da live</strong> (A/B/C/D — recomendação D)</li>
+<li>☐ <strong>Áudio do W3</strong> — Suriel grava até dom 27/04 18h</li>
+</ul>
+
+<h3>Substituições de última hora</h3>
+<ul style="padding-left:24px;font-size:14px;line-height:1.9">
+<li>☐ E5 e W5: substituir <code>{{LINK_DA_LIVE}}</code> pelo URL real da transmissão</li>
+<li>☐ E5: substituir <code>{{N_CONFIRMADOS}}</code> pelo número real</li>
+<li>☐ W2.5: substituir <code>{{REBRANDLY_LINK}}</code> pelo link encurtado</li>
+</ul>
+
+<h3>Tarefas pontuais</h3>
+<ul style="padding-left:24px;font-size:14px;line-height:1.9">
+<li>☐ Mandar W2.5 hoje 26/04 nos grupos</li>
+<li>☐ Suriel gravar áudio W3 até dom 18h</li>
+<li>☐ Decidir oferta exclusiva</li>
+<li>☐ Passar URL do vídeo 4</li>
+<li>☐ Disparar E3, W3, E4, W4, E5, W5 nos horários</li>
+<li>☐ Suriel rodar a live segunda 20h</li>
+</ul>
+
+<h3>Tarefas recorrentes (durante a campanha)</h3>
+<ul style="padding-left:24px;font-size:14px;line-height:1.9">
+<li>☐ Conferir aberturas/cliques no AC após cada disparo</li>
+<li>☐ Conferir cliques nos vídeos no YouTube Studio (fonte "External")</li>
+<li>☐ Conferir contagem da lista LIVE-28ABR-CONFIRMADOS subindo</li>
+</ul>
+
+<h3>Resumo de entrega</h3>
+<table>
+<thead><tr><th>Peça</th><th>Disparo</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>E1 — Anúncio + ataque</td><td>Sex 24/04 17h</td><td><span class="pill pill-done">Enviado</span></td></tr>
+<tr><td>W1 — Aviso curto</td><td>Sex 24/04 17h30</td><td><span class="pill pill-done">Enviado</span></td></tr>
+<tr><td>E2 — Promessa falsa morta</td><td>Sáb 25/04 17h</td><td><span class="pill pill-done">Enviado</span></td></tr>
+<tr><td>W2 — Provocação</td><td>Sáb 25/04 17h30</td><td><span class="pill pill-done">Enviado</span></td></tr>
+<tr><td>W2.5 — Add na agenda</td><td>Dom 26/04</td><td><span class="pill pill-now">Hoje</span></td></tr>
+<tr><td>E3 — Recap + último call</td><td>Dom 27/04 19h</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+<tr><td>W3 — Áudio Suriel</td><td>Dom 27/04 20h</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+<tr><td>E4 — É hoje</td><td>Seg 28/04 9h</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+<tr><td>W4 — Lembrete</td><td>Seg 28/04 12h</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+<tr><td>E5 — 1h antes</td><td>Seg 28/04 19h</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+<tr><td>W5 — 5 min antes</td><td>Seg 28/04 19h55</td><td><span class="pill pill-todo">A fazer</span></td></tr>
+</tbody>
+</table>
+</section>
+
+</div>
+
+<footer class="footer">
+<strong>OpenCapital</strong> · Campanha Live 28/04 · Print &amp; Trade<br>
+Operacional V2 Executada · ABR/2026
+</footer>
+
+</body>
+</html>

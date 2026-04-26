@@ -1,0 +1,35 @@
+===============================================================================
+CAMPANHA: Live 28/04 - Print & Trade
+PEÇA: W2 - Resultado isolado R$ 2.255 (espelha E2)
+DISPARO: Sáb 25/04 ~30 min após E2
+CANAL: WhatsApp — disparo em GRUPOS (broadcast, não 1-a-1)
+
+LINKS (2, padrão Robson — prova social + ação):
+  🎥 YouTube: https://youtu.be/gG2bUUwDFpE
+     (vídeo "GANHEI R$ 2.255,00 DE LUCRO COM ESSA IA PARA DAY TRADE")
+  🔐 Landing: https://lp.theopencapital.org/convite-live-28abr
+
+TRACKING:
+  - YouTube: medido via YouTube Studio (fonte "External")
+  - Landing: medido via AC Site Tracking (visita a /convite-live-28abr)
+  - Conversão: UTM no botão INTERNO da landing que leva pra
+    /live-28abr-confirmado:
+    ?utm_source=landing-convite&utm_medium=cta&utm_campaign=live28abr&utm_content=w2
+
+PERSONALIZAÇÃO: nenhuma (disparo em grupo)
+FORMATAÇÃO: WhatsApp nativo — *asterisco* para negrito, sem markdown/HTML
+===============================================================================
+
+*+ R$ 2.255 em 1 operação.*
+
+Vídeo novo no canal. Day trade real, sem corte, com a IA da OpenCapital tomando a decisão.
+
+🎥 *Assistir no YouTube:*
+https://youtu.be/gG2bUUwDFpE
+
+Segunda-feira, *28 de abril às 20h*, eu rodo essa mesma IA ao vivo em 4 ativos diferentes. Pra quem estiver presente, abro uma *oferta exclusiva que só vale durante a transmissão*.
+
+Faltam 3 dias. Sem inscrição. Sem replay.
+
+🔐 *Confirmar presença na live:*
+https://lp.theopencapital.org/convite-live-28abr
