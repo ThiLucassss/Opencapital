@@ -3,83 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Script do áudio — Suriel · Live 28/04</title>
+<title>Áudio Suriel · Live 28/04</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&display=swap');
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Manrope',sans-serif;background:#F4F6FA;color:#374151;line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100vh}
-strong{color:#141417}
-code{font-family:'SF Mono',Consolas,monospace;font-size:.88em;background:#F3F4F6;padding:2px 6px;border-radius:4px;color:#141417}
+body{font-family:'Manrope',sans-serif;background:#08080B;color:#E5E7EB;line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100vh;display:flex;flex-direction:column}
+strong{color:#fff}
 
-.hero{background:#08080B;color:#fff;padding:48px 24px 40px;border-bottom:4px solid #16A34A}
-.hero-inner{max-width:680px;margin:0 auto}
-.hero .kicker{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;color:#9CA3AF;text-transform:uppercase;margin-bottom:8px}
-.hero .brand{font-family:'DM Sans',sans-serif;font-size:16px;font-weight:800;color:#fff;margin-bottom:32px}
-.hero .brand span{color:#2479FB}
-.hero .badge{display:inline-block;background:#16A34A;color:#fff;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 12px;border-radius:4px;margin-bottom:18px}
-.hero h1{font-family:'DM Sans',sans-serif;font-size:36px;font-weight:800;line-height:1.1;color:#fff;margin-bottom:14px;letter-spacing:-.5px}
-.hero .lead{font-size:15px;color:#9CA3AF;line-height:1.6}
+.head{padding:32px 24px 18px;text-align:center;border-bottom:1px solid #1F2937}
+.head .tag{display:inline-block;font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;color:#16A34A;text-transform:uppercase;margin-bottom:10px}
+.head h1{font-family:'DM Sans',sans-serif;font-size:24px;font-weight:800;color:#fff;line-height:1.2;letter-spacing:-.3px;margin-bottom:8px}
+.head .specs{font-size:13px;color:#9CA3AF}
+.head .specs strong{color:#16A34A}
 
-.wrap{max-width:680px;margin:0 auto;padding:32px 24px 64px}
+.wrap{flex:1;max-width:680px;margin:0 auto;width:100%;padding:28px 20px 48px}
 
-.specs{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:20px 22px;margin-bottom:20px;border-left:4px solid #16A34A}
-.specs-title{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;color:#16A34A;text-transform:uppercase;margin-bottom:10px}
-.spec-row{display:grid;grid-template-columns:110px 1fr;gap:12px;font-size:14px;padding:6px 0;border-bottom:1px dotted #F3F4F6}
-.spec-row:last-child{border-bottom:none}
-.spec-label{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;color:#6B7280;letter-spacing:.5px;text-transform:uppercase;padding-top:2px}
-.spec-val{color:#141417}
-
-.section-label{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:700;letter-spacing:1.5px;color:#075E54;text-transform:uppercase;margin:32px 0 10px;display:flex;align-items:center;gap:8px}
-
-.script{background:#F0F9F4;border:1px solid #C8E6C9;border-left:4px solid #16A34A;border-radius:8px;padding:24px 26px;font-size:17px;line-height:1.8;color:#1F2937;font-family:'Manrope',sans-serif}
+.script{background:#F0F9F4;border-radius:12px;padding:28px 28px;font-size:19px;line-height:1.8;color:#0F172A;font-family:'Manrope',sans-serif}
 .script p{margin:0 0 18px}
 .script p:last-child{margin-bottom:0}
 .script strong{color:#075E54}
 
-.post-text{background:#DCF8C6;border-radius:8px 8px 8px 0;padding:14px 18px;font-size:14.5px;line-height:1.7;color:#141417;font-family:'Segoe UI',Roboto,sans-serif;white-space:pre-wrap;margin-top:8px}
-.post-text em{color:#075E54;font-weight:700;font-style:normal}
-
-.tip{background:#FEF3C7;border-left:3px solid #F59E0B;padding:14px 18px;border-radius:4px;margin-top:24px;font-size:13.5px;color:#78350F}
-.tip strong{color:#78350F}
-.tip ul{padding-left:20px;margin-top:6px;line-height:1.8}
-
-.footer{text-align:center;padding:32px 24px;color:#9CA3AF;font-size:12px;border-top:1px solid #E5E7EB;background:#fff}
-.footer strong{color:#374151}
+.foot{text-align:center;padding:24px;color:#6B7280;font-size:12px}
 
 @media (max-width:560px){
-  .hero{padding:36px 20px 32px}
-  .hero h1{font-size:28px}
-  .wrap{padding:24px 18px 48px}
-  .script{padding:20px 18px;font-size:16px}
-  .spec-row{grid-template-columns:1fr;gap:2px}
+  .head{padding:24px 18px 14px}
+  .head h1{font-size:20px}
+  .wrap{padding:20px 14px 32px}
+  .script{padding:22px 20px;font-size:17px}
 }
 </style>
 </head>
 <body>
 
-<header class="hero">
-<div class="hero-inner">
-<p class="kicker">UMA APLICAÇÃO</p>
-<p class="brand">OPEN<span>CAPITAL</span></p>
-<span class="badge">🎤 Áudio WhatsApp · Live 28/04</span>
-<h1>Script do áudio — Suriel</h1>
-<p class="lead">Áudio de ~50s pra mandar nos grupos do WhatsApp <strong style="color:#fff">segunda 27/04 às 20h</strong>. Tom baixo, conversacional, como se estivesse contando pra um amigo. Não é palestra.</p>
-</div>
+<header class="head">
+<span class="tag">🎤 Áudio · Live 28/04</span>
+<h1>Script pra você gravar, Suriel</h1>
+<p class="specs"><strong>50–60 seg</strong> · tom baixo, conversacional · <strong>postar segunda 27/04 às 20h</strong></p>
 </header>
 
 <div class="wrap">
-
-<div class="specs">
-<div class="specs-title">📋 Especificações</div>
-<div class="spec-row"><div class="spec-label">Duração</div><div class="spec-val">50–60 segundos</div></div>
-<div class="spec-row"><div class="spec-label">Tom</div><div class="spec-val">Baixo, conversacional · NÃO é palestra</div></div>
-<div class="spec-row"><div class="spec-label">Ambiente</div><div class="spec-val">Silencioso · sem eco · sem barulho de rua</div></div>
-<div class="spec-row"><div class="spec-label">Microfone</div><div class="spec-val">O do próprio celular · 15–20 cm da boca</div></div>
-<div class="spec-row"><div class="spec-label">Gravar até</div><div class="spec-val">Seg 27/04 — 18h00</div></div>
-<div class="spec-row"><div class="spec-label">Postar em</div><div class="spec-val">Grupos do WhatsApp · Seg 27/04 — 20h00</div></div>
-</div>
-
-<p class="section-label">🎙️ Script — leia naturalmente, pode adaptar palavra-por-palavra (importa o tom)</p>
 
 <div class="script">
 <p>"Oi, Suriel aqui.</p>
@@ -88,31 +50,15 @@ code{font-family:'SF Mono',Consolas,monospace;font-size:.88em;background:#F3F4F6
 <p>Amanhã 20h é a live. Vou mostrar a IA funcionando ao vivo, vou abrir oferta exclusiva no fim, e <strong>não vai ter replay completo</strong>.</p>
 <p>Mas eu queria te falar uma coisa antes.</p>
 <p>Se você tá nesse grupo, é porque em algum momento de abril você se interessou pelo Print &amp; Trade. Mas não foi pra frente.</p>
-<p>E eu sei o que tá rolando na sua cabeça desde lá. <em>'Será que funciona mesmo?'</em>. <em>'Vou esperar pra ver mais resultado'</em>. <em>'Próxima'</em>.</p>
+<p>E eu sei o que tá rolando na sua cabeça desde lá. <strong>'Será que funciona mesmo?'</strong>. <strong>'Vou esperar pra ver mais resultado'</strong>. <strong>'Próxima'</strong>.</p>
 <p>Cara, o resultado <strong>já tá no YouTube</strong>. 22 mil views em 8 dias. 1.700 num vídeo, 2.255 em outro, mais 6 mil em outro. Não é teoria. Não é promessa. Tá lá pra qualquer um ver.</p>
 <p>Amanhã eu vou mostrar <strong>AO VIVO</strong> como aquilo é feito. Por dentro. Em tempo real.</p>
 <p>Bota na agenda. <strong>20h</strong>. Te mando o link uma hora antes."</p>
 </div>
 
-<p class="section-label">💬 Texto pra mandar 1 minuto depois do áudio (no mesmo grupo)</p>
-
-<div class="post-text">🔐 <em>Confirmar presença na live:</em>
-lp.theopencapital.org/convite-live-28abr</div>
-
-<div class="tip">
-<strong>⚠ Antes de postar:</strong>
-<ul>
-<li>Ouve o áudio uma vez antes — se não soou natural, regrava</li>
-<li>Posta o áudio primeiro, espera ~1 minuto, depois posta o texto curto com o link</li>
-<li>Não cola os dois no mesmo envio — quebra o ritmo</li>
-</ul>
 </div>
 
-</div>
-
-<footer class="footer">
-<strong>OpenCapital</strong> · Campanha Live 28/04 · Print &amp; Trade
-</footer>
+<footer class="foot">OpenCapital · Live 28/04</footer>
 
 </body>
 </html>
