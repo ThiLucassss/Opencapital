@@ -34,10 +34,10 @@ Total: 22,6 mil views em 8 dias.
 | **SEX 24/04** · 17h | E1 — Anúncio + ataque ao "estudou anos" | W1 — Aviso curto (17h30) | 1 | ✅ Enviado |
 | **SÁB 25/04** · 17h | E2 — Promessa falsa morta | W2 — Provocação (17h30) | 3 | ✅ Enviado |
 | **DOM 26/04** | — | **W2.5 — Add na agenda** (extra) | — | 🟡 Hoje |
-| **DOM 27/04** · 19h | E3 — Recap + último call | W3 — Áudio Suriel 50s (20h) | 4 | 🟢 A fazer |
-| **SEG 28/04** · 9h | E4 — É hoje | W4 — Lembrete (12h) | — | 🟢 A fazer |
-| **SEG 28/04** · 19h | E5 — 1h antes (link da live) | W5 — 5 min antes (19h55) | — | 🟢 A fazer |
-| **SEG 28/04** · **20h00** | — | — | — | 🔴 LIVE |
+| **SEG 27/04** · 19h | E3 — Recap + último call | W3 — Áudio Suriel 50s (20h) | 4 | 🟢 A fazer |
+| **TER 28/04** · 9h | E4 — É hoje | W4 — Lembrete (12h) | — | 🟢 A fazer |
+| **TER 28/04** · 19h | E5 — 1h antes (link da live) | W5 — 5 min antes (19h55) | — | 🟢 A fazer |
+| **TER 28/04** · **20h00** | — | — | — | 🔴 LIVE |
 
 ---
 
@@ -92,17 +92,17 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 | | |
 |---|---|
 | **ASSUNTO** | Você ainda tá estudando análise técnica em 2026? |
-| **PREVIEW** | 22 mil views em 8 dias mostram o que a IA tá fazendo. Live segunda 20h. |
+| **PREVIEW** | 22 mil views em 8 dias mostram o que a IA tá fazendo. Live terça 20h. |
 | **VÍDEOS** | LINK 1 + LINK 2 |
 
-> %FIRSTNAME%, pergunta direta — quanto tempo você gastou nos últimos 3 anos olhando vídeo de YouTube? 100h? 500h? 1.000h? Soma. Provavelmente passou de cinco mil. Resultado? Continuo perdendo. Não tô te julgando — fui isso por 8 anos. [CTA TOP]. Mas presta atenção: [VÍDEO 1 + VÍDEO 2]. 22 mil views em 8 dias. Estudar análise técnica em 2026 é como aprender cálculo no ábaco. [HERO DATE 28/04 20H00]. Segunda vou rodar a IA ao vivo em 4 ativos + oferta exclusiva. 1 clique. [CTA BOTTOM]. P.S. — Se você abriu mas não vai clicar, daqui a 6 meses você vai estar onde tá hoje.
+> %FIRSTNAME%, pergunta direta — quanto tempo você gastou nos últimos 3 anos olhando vídeo de YouTube? 100h? 500h? 1.000h? Soma. Provavelmente passou de cinco mil. Resultado? Continuo perdendo. Não tô te julgando — fui isso por 8 anos. [CTA TOP]. Mas presta atenção: [VÍDEO 1 + VÍDEO 2]. 22 mil views em 8 dias. Estudar análise técnica em 2026 é como aprender cálculo no ábaco. [HERO DATE 28/04 20H00]. Terça vou rodar a IA ao vivo em 4 ativos + oferta exclusiva. 1 clique. [CTA BOTTOM]. P.S. — Se você abriu mas não vai clicar, daqui a 6 meses você vai estar onde tá hoje.
 
 **🔧 Adaptações aplicadas vs brief:**
 - Valores em R$ informais ("cinco mil")
 - **2 botões CTA** (top above-the-fold + bottom) — brief tinha 1 só
-- Header tag vermelho com countdown (`AO VIVO · SEG 28/04 · 20H`)
+- Header tag vermelho com countdown (`AO VIVO · TER 28/04 · 20H`)
 - Hero date block preto com 28/04 · 20H00 destacado
-- Sub-CTA "SEG 28/04 · 19H → link no WhatsApp"
+- Sub-CTA "TER 28/04 · 19H → link no WhatsApp"
 - Assinatura caligráfica + "Embaixador OpenCapital" (decisão de manter)
 - Footer legal Ports Capital + unsubscribe
 - Sem imagens externas além das thumbnails YouTube
@@ -117,11 +117,11 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 
 | | |
 |---|---|
-| **ASSUNTO** | A era das promessas falsas acabou (segunda 20h) |
+| **ASSUNTO** | A era das promessas falsas acabou (terça 20h) |
 | **PREVIEW** | 2.255 reais de lucro em uma operação. Sem curso, sem grupo, sem guru. |
 | **VÍDEO** | LINK 3 |
 
-> %FIRSTNAME%, vou te falar uma coisa que ninguém no mercado fala: **A era das promessas falsas acabou.** Aquele guru com Lamborghini alugada que te vendeu mentoria de dez mil. Aquele grupo VIP de Telegram que sumiu. Aquele robô de copy trade que zerou a banca. Aquele curso de quase 4 mil que te ensinou Fibonacci mas não te ensinou apertar botão sem tremer. **Tudo isso morreu na segunda metade de 2025.** A tecnologia chegou no celular do trader. [CTA TOP]. Olha: [VÍDEO 3 — R$ 2.255]. Não é mágica. É o resultado normal de quem opera com tecnologia institucional. [HERO DATE]. Segunda 28/04 · 20h00 ao vivo. [CTA BOTTOM]. P.S. — Eu não vendo curso. **Eu vendo a saída.**
+> %FIRSTNAME%, vou te falar uma coisa que ninguém no mercado fala: **A era das promessas falsas acabou.** Aquele guru com Lamborghini alugada que te vendeu mentoria de dez mil. Aquele grupo VIP de Telegram que sumiu. Aquele robô de copy trade que zerou a banca. Aquele curso de quase 4 mil que te ensinou Fibonacci mas não te ensinou apertar botão sem tremer. **Tudo isso morreu na segunda metade de 2025.** A tecnologia chegou no celular do trader. [CTA TOP]. Olha: [VÍDEO 3 — R$ 2.255]. Não é mágica. É o resultado normal de quem opera com tecnologia institucional. [HERO DATE]. Terça 28/04 · 20h00 ao vivo. [CTA BOTTOM]. P.S. — Eu não vendo curso. **Eu vendo a saída.**
 
 **🔧 Adaptações aplicadas vs brief:**
 - Brief original: data sex 25/04 11h · executado: sáb 25/04 17h (atraso reposicionado)
@@ -134,7 +134,7 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 
 ---
 
-### EMAIL 3 — RECAP + ÚLTIMO CALL  `Dom 27/04 · 19h · D-1` 🟢
+### EMAIL 3 — RECAP + ÚLTIMO CALL  `Seg 27/04 · 19h · D-1` 🟢
 
 **▼ Gatilho:** ÚLTIMA CHANCE + DOR ESPECÍFICA
 
@@ -147,8 +147,8 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 > %FIRSTNAME%, amanhã 20h00 ao vivo. Antes de te falar do que vou mostrar: você abre o gráfico, vê uma entrada que parece boa, **a mão treme**. "Será que é mesmo? Deixa eu olhar mais um indicador..." 5 minutos depois o preço já foi. Esse padrão tem quanto tempo? 5 anos? 8 anos? Ou o oposto: aperta na primeira coisa pra recuperar a perda, dá errado, segura achando que volta, sai no stop perdendo o dobro. **Isso vai parar quando?** [CTA TOP]. Acabou de parar pra todo mundo que assistiu: [VÍDEO 4]. 4.600 pessoas em 8 dias. **A saída é uma IA que faz a análise por você. Você só executa.** [HERO DATE — AMANHÃ]. 90 min · 4 ativos · oferta exclusiva no fim. [CTA BOTTOM]. P.S. — Continuar fazendo o que tá fazendo (e ter o mesmo resultado). Ou clicar agora. **Pensa direito.**
 
 **🔧 Adaptações aplicadas vs brief:**
-- Header tag muda pra `FALTA 1 DIA · LIVE SEG 28/04 · 20H`
-- Hero date block adapta texto pra "AMANHÃ · SEGUNDA 28 DE ABRIL · 20H00"
+- Header tag muda pra `FALTA 1 DIA · LIVE TER 28/04 · 20H`
+- Hero date block adapta texto pra "AMANHÃ · TERÇA 28 DE ABRIL · 20H00"
 - 2 botões CTA (top + bottom)
 - Assunto encurtado ("mão tremendo" no lugar de "decisão emocional" — mais visceral)
 - Resto do padrão visual mantido
@@ -157,7 +157,7 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 
 ---
 
-### EMAIL 4 — É HOJE  `Seg 28/04 · 9h · DIA D` 🟢
+### EMAIL 4 — É HOJE  `Ter 28/04 · 9h · DIA D` 🟢
 
 **▼ Gatilho:** COMPROMISSO + EXPECTATIVA
 
@@ -180,7 +180,7 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 
 ---
 
-### EMAIL 5 — 1 HORA ANTES  `Seg 28/04 · 19h · 1H ANTES` 🟢
+### EMAIL 5 — 1 HORA ANTES  `Ter 28/04 · 19h · 1H ANTES` 🟢
 
 **▼ Gatilho:** AÇÃO IMEDIATA
 
@@ -216,7 +216,7 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 
 **▼ Gatilho:** ATAQUE CURTO + AVISO
 
-> Pergunta rápida: você ainda tá *estudando análise técnica* em 2026? Esse vídeo é de semana passada — *1.700 reais de lucro em 1 operação*. 🎥 youtu.be/yeUXsAWhHSw . Segunda *28/04 às 20h* eu rodo essa mesma IA ao vivo em 4 ativos. *Oferta exclusiva* só durante a transmissão. Sem inscrição. Sem replay. 🔐 lp.theopencapital.org/convite-live-28abr
+> Pergunta rápida: você ainda tá *estudando análise técnica* em 2026? Esse vídeo é de semana passada — *1.700 reais de lucro em 1 operação*. 🎥 youtu.be/yeUXsAWhHSw . Terça *28/04 às 20h* eu rodo essa mesma IA ao vivo em 4 ativos. *Oferta exclusiva* só durante a transmissão. Sem inscrição. Sem replay. 🔐 lp.theopencapital.org/convite-live-28abr
 
 **🔧 Adaptações aplicadas vs brief:**
 - Adaptado pra **grupos** (sem `[Nome]`, sem "Suriel.")
@@ -231,7 +231,7 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 
 **▼ Gatilho:** PROVOCAÇÃO + GURU LAMBORGHINI
 
-> Quanto você já gastou em curso, grupo VIP, robô de copy trade? E o resultado? *A era das promessas falsas acabou.* 🎥 *2.255 de lucro com a IA em 1 operação:* youtu.be/gG2bUUwDFpE . Segunda *28/04 às 20h* eu rodo essa IA ao vivo. Sem replay. Oferta exclusiva só pra quem tá presente. 🔐 *Confirmar:* lp.theopencapital.org/convite-live-28abr
+> Quanto você já gastou em curso, grupo VIP, robô de copy trade? E o resultado? *A era das promessas falsas acabou.* 🎥 *2.255 de lucro com a IA em 1 operação:* youtu.be/gG2bUUwDFpE . Terça *28/04 às 20h* eu rodo essa IA ao vivo. Sem replay. Oferta exclusiva só pra quem tá presente. 🔐 *Confirmar:* lp.theopencapital.org/convite-live-28abr
 
 **🔧 Adaptações aplicadas vs brief:**
 - Brief: sex 25/04 14h · executado: sáb 25/04 17h30
@@ -247,7 +247,7 @@ Cada uma usa um gatilho psicológico diferente. Cada uma linka pra prova viva no
 
 **▼ Gatilho:** EXTRA · COMPROMISSO DE CALENDÁRIO
 
-> Coloca na agenda agora pra não esquecer 👇 *LIVE OpenCapital — Segunda 28/04 às 20h* 🤖 IA ao vivo em 4 ativos · 🔐 Oferta exclusiva só ao vivo. Adiciona em 1 toque (Google Calendar): {{REBRANDLY_LINK}} . Se for iPhone e não abrir, o botão Apple Calendar tá aqui: lp.theopencapital.org/convite-live-28abr
+> Coloca na agenda agora pra não esquecer 👇 *LIVE OpenCapital — Terça 28/04 às 20h* 🤖 IA ao vivo em 4 ativos · 🔐 Oferta exclusiva só ao vivo. Adiciona em 1 toque (Google Calendar): {{REBRANDLY_LINK}} . Se for iPhone e não abrir, o botão Apple Calendar tá aqui: lp.theopencapital.org/convite-live-28abr
 
 **🔧 Adaptações aplicadas vs brief:**
 - **Peça nova** (não estava no brief) — preenche o gap dom 26/04 entre W2 e W3
@@ -264,7 +264,7 @@ https://calendar.google.com/calendar/event?action=TEMPLATE&text=OpenCapital+-+Li
 
 ---
 
-### WHATSAPP 3 — ÁUDIO SURIEL  `Dom 27/04 · 20h` 🟢
+### WHATSAPP 3 — ÁUDIO SURIEL  `Seg 27/04 · 20h` 🟢
 
 **▼ Gatilho:** ÁUDIO MATADOR + COMPROMISSO PESSOAL
 
@@ -272,7 +272,7 @@ https://calendar.google.com/calendar/event?action=TEMPLATE&text=OpenCapital+-+Li
 
 **Script para Suriel gravar** (tom: baixo, conversacional, NÃO palestra):
 
-> "Oi, Suriel aqui. Tô gravando aqui no domingo à noite, um dia antes da live de amanhã. Olha, vou ser direto. Amanhã 20h é a live. Vou mostrar a IA funcionando ao vivo, vou abrir oferta exclusiva no fim, e não vai ter replay completo. Mas eu queria te falar uma coisa antes. Se você tá nesse grupo, é porque em algum momento de abril você se interessou pelo Print & Trade. Mas não foi pra frente. E eu sei o que tá rolando na sua cabeça desde lá. 'Será que funciona mesmo?'. 'Vou esperar pra ver mais resultado'. 'Próxima'. Cara, o resultado já tá no YouTube. 22 mil views em 8 dias. 1.700 num vídeo, 2.255 em outro, mais 6 mil em outro. Não é teoria. Não é promessa. Tá lá pra qualquer um ver. Amanhã eu vou mostrar AO VIVO como aquilo é feito. Por dentro. Em tempo real. Bota na agenda. 20h. Te mando o link uma hora antes."
+> "Oi, Suriel aqui. Tô gravando aqui na segunda à noite, um dia antes da live de amanhã. Olha, vou ser direto. Amanhã 20h é a live. Vou mostrar a IA funcionando ao vivo, vou abrir oferta exclusiva no fim, e não vai ter replay completo. Mas eu queria te falar uma coisa antes. Se você tá nesse grupo, é porque em algum momento de abril você se interessou pelo Print & Trade. Mas não foi pra frente. E eu sei o que tá rolando na sua cabeça desde lá. 'Será que funciona mesmo?'. 'Vou esperar pra ver mais resultado'. 'Próxima'. Cara, o resultado já tá no YouTube. 22 mil views em 8 dias. 1.700 num vídeo, 2.255 em outro, mais 6 mil em outro. Não é teoria. Não é promessa. Tá lá pra qualquer um ver. Amanhã eu vou mostrar AO VIVO como aquilo é feito. Por dentro. Em tempo real. Bota na agenda. 20h. Te mando o link uma hora antes."
 
 **Texto pós-áudio (1 min depois):**
 
@@ -287,7 +287,7 @@ https://calendar.google.com/calendar/event?action=TEMPLATE&text=OpenCapital+-+Li
 
 ---
 
-### WHATSAPP 4 — LEMBRETE DIA D  `Seg 28/04 · 12h` 🟢
+### WHATSAPP 4 — LEMBRETE DIA D  `Ter 28/04 · 12h` 🟢
 
 **▼ Gatilho:** LEMBRETE DIA D
 
@@ -301,7 +301,7 @@ https://calendar.google.com/calendar/event?action=TEMPLATE&text=OpenCapital+-+Li
 
 ---
 
-### WHATSAPP 5 — CHAMADA FINAL  `Seg 28/04 · 19h55` 🟢
+### WHATSAPP 5 — CHAMADA FINAL  `Ter 28/04 · 19h55` 🟢
 
 **▼ Gatilho:** CHAMADA FINAL · 5 MIN
 
@@ -319,11 +319,11 @@ https://calendar.google.com/calendar/event?action=TEMPLATE&text=OpenCapital+-+Li
 
 ### `/convite-live-28abr` — destino do WhatsApp
 
-Hero badge `● AO VIVO · SEG 28/04 · 20H` · H1 *"Você ainda tá estudando análise técnica em 2026?"* · vídeos LINK 1 + LINK 2 inline (iframe) · countdown · event card · CTA → `/live-28abr-confirmado` · reminder footer.
+Hero badge `● AO VIVO · TER 28/04 · 20H` · H1 *"Você ainda tá estudando análise técnica em 2026?"* · vídeos LINK 1 + LINK 2 inline (iframe) · countdown · event card · CTA → `/live-28abr-confirmado` · reminder footer.
 
 ### `/live-28abr-confirmado` — thank you do email + CTA
 
-Hero `✓ VOCÊ TÁ DENTRO` · H1 *"Te vejo segunda às 20h"* · countdown · event card · botões Google Calendar + Apple Calendar (.ics) · reminder footer. **Site Tracking ativo** dispara a automation no AC.
+Hero `✓ VOCÊ TÁ DENTRO` · H1 *"Te vejo terça às 20h"* · countdown · event card · botões Google Calendar + Apple Calendar (.ics) · reminder footer. **Site Tracking ativo** dispara a automation no AC.
 
 ---
 
@@ -347,7 +347,7 @@ Hero `✓ VOCÊ TÁ DENTRO` · H1 *"Te vejo segunda às 20h"* · countdown · ev
 - ☐ Suriel gravar áudio W3 até dom 18h
 - ☐ Criar automation no AC
 - ☐ Disparar E3, W3, E4, W4, E5, W5 nos horários
-- ☐ Suriel rodar a live segunda 20h
+- ☐ Suriel rodar a live terça 20h
 
 **Recorrentes (durante a campanha):**
 - ☐ Conferir aberturas/cliques no AC após cada disparo

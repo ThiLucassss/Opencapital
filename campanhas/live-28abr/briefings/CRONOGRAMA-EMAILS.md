@@ -1,7 +1,7 @@
 # CRONOGRAMA — Campanha Live 28/04 (Print & Trade)
 
 > **Base oficial:** `OpenCapital - Live 28 de Abril - Emails.pdf` (mesmo diretório)
-> **Live:** segunda 28/04/2026 às 20h00 BRT
+> **Live:** terça 28/04/2026 às 20h00 BRT
 > **Lista destino:** principal OpenCapital (~5.004 contatos ativos · brief diz 4.900)
 > **CTA padrão (email):** `https://lp.theopencapital.org/live-28abr-confirmado`
 > **CTA padrão (whatsapp):** `https://lp.theopencapital.org/convite-live-28abr`
@@ -22,12 +22,12 @@ Não copiamos o brief literal. Aplicamos esse pattern (validado no E1/W1):
 | **W1** | Ter 22/04 19h30 | Sex 24/04 ~17h30 | `W1-aviso-curto.txt` | Mesmo, encurtado | LINK 1 | ✅ Enviado |
 | **E2** | Sex 25/04 11h | Sáb 25/04 ~17h | `E2-promessa-falsa.html` | **Promessa falsa = morta** (ataque indústria de gurus) | LINK 3 (`gG2bUUwDFpE` R$ 2.255) | ⏳ Aguardando aprovação |
 | **W2** | Sex 25/04 14h | Sáb 25/04 ~17h30 | `W2-provocacao.txt` | **Provocação + guru Lamborghini** | LINK 3 | ⏳ Aguardando aprovação |
-| **E3** | Dom 27/04 19h | Dom 27/04 19h | `E3-recap-ultimo-call.html` | Última chance + dor específica (mão treme / segura na perda) | LINK 4 (`_wwMqYp2ze0` "A melhor IA") | ⬜ A fazer |
-| **W3** | Dom 27/04 20h | Dom 27/04 20h | `W3-audio-suriel.txt` | **Áudio do Suriel · 50s** (não texto) — script no brief pág 16 | — | ⬜ A fazer (Suriel grava) |
-| **E4** | Seg 28/04 9h | Seg 28/04 9h | `E4-e-hoje.html` | Compromisso + expectativa | — | ⬜ A fazer |
-| **W4** | Seg 28/04 12h | Seg 28/04 12h | `W4-lembrete.txt` | Lembrete dia D | — | ⬜ A fazer |
-| **E5** | Seg 28/04 19h | Seg 28/04 19h | `E5-1h-antes.html` | Ação imediata (link da live) | — | ⬜ A fazer |
-| **W5** | Seg 28/04 19h55 | Seg 28/04 19h55 | `W5-5min.txt` | Chamada final · 5 min | — | ⬜ A fazer |
+| **E3** | Seg 27/04 19h | Seg 27/04 19h | `E3-recap-ultimo-call.html` | Última chance + dor específica (mão treme / segura na perda) | LINK 4 (`_wwMqYp2ze0` "A melhor IA") | ⬜ A fazer |
+| **W3** | Seg 27/04 20h | Seg 27/04 20h | `W3-audio-suriel.txt` | **Áudio do Suriel · 50s** (não texto) — script no brief pág 16 | — | ⬜ A fazer (Suriel grava) |
+| **E4** | Ter 28/04 9h | Ter 28/04 9h | `E4-e-hoje.html` | Compromisso + expectativa | — | ⬜ A fazer |
+| **W4** | Ter 28/04 12h | Ter 28/04 12h | `W4-lembrete.txt` | Lembrete dia D | — | ⬜ A fazer |
+| **E5** | Ter 28/04 19h | Ter 28/04 19h | `E5-1h-antes.html` | Ação imediata (link da live) | — | ⬜ A fazer |
+| **W5** | Ter 28/04 19h55 | Ter 28/04 19h55 | `W5-5min.txt` | Chamada final · 5 min | — | ⬜ A fazer |
 
 ## Pendências travando peças posteriores
 

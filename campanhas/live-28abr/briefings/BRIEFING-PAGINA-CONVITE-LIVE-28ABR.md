@@ -7,7 +7,7 @@
 
 ## 1. Contexto
 
-Estamos rodando a **Campanha Live 28/04 · Print & Trade** da OpenCapital. A live acontece **segunda-feira 28 de abril de 2026 às 20h00 (BRT)**. O objetivo é captar confirmações de presença.
+Estamos rodando a **Campanha Live 28/04 · Print & Trade** da OpenCapital. A live acontece **terça-feira 28 de abril de 2026 às 20h00 (BRT)**. O objetivo é captar confirmações de presença.
 
 A campanha tem dois canais:
 - **Email** (ActiveCampaign) — já tem HTML pronto, inclui videos + CTA embutido
@@ -98,9 +98,9 @@ Componentes já criados pra essa campanha — **devem ser reaproveitados** nesta
 #### A) `ConviteLive28_Hero.tsx`
 **Função:** hero de entrada que converte o headline do E1.
 **Copy:**
-- Badge superior vermelho: `● AO VIVO · SEG 28/04 · 20H`
+- Badge superior vermelho: `● AO VIVO · TER 28/04 · 20H`
 - H1: `Você ainda tá estudando análise técnica em 2026?`
-- Subtítulo: `22 mil views em 8 dias mostram o que a IA tá fazendo. Assista antes da live — ela começa segunda às 20h.`
+- Subtítulo: `22 mil views em 8 dias mostram o que a IA tá fazendo. Assista antes da live — ela começa terça às 20h.`
 - Fonts: DM Sans (heading) + Manrope (sub)
 - Cores: bg `#08080B` ou `#0B0B10`, H1 branco, accent `#DC2626` (badge) e `#2479FB` (secundário)
 
@@ -136,8 +136,8 @@ Vídeos:
 **Função:** seção final com o botão de confirmação.
 
 Conteúdo:
-- Pretítulo pequeno: `Segunda, 28/04 · 20h00 · ao vivo · sem replay`
-- Headline: `Segunda que vem, 20h em ponto, vou entrar ao vivo.`
+- Pretítulo pequeno: `Terça, 28/04 · 20h00 · ao vivo · sem replay`
+- Headline: `Terça que vem, 20h em ponto, vou entrar ao vivo.`
 - Parágrafo curto: `Vou rodar a IA em tempo real, em 4 ativos diferentes. 90 minutos. Q&A no chat. E no fim uma oferta exclusiva que só vale durante a transmissão.`
 - Botão CTA grande azul `#2479FB`:
   - Texto: `→ QUERO VER A IA OPERANDO AO VIVO`
